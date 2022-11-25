@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="card col-3 m-5" *ngFor="let stu of data">
+        <img [src]="stu.avatar" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{ stu.name }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+            <table width="100%">
+                <tr>
+                    <td align="left"><a href="#" class="btn mr-2">&nbsp;&nbsp;Edit&nbsp;&nbsp;</a></td>
+                    <td align="center"><a href="#" class="btn mr-2">Details</a></td>
+                    <td align="right"><a href="#" class="btn ">Delete</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
