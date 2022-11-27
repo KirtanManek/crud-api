@@ -32,7 +32,7 @@
 
 .first h4::after {
     content: '';
-    background: #66c83d;
+    background: #FF512F;
     width: 20%;
     height: 2px;
     position: absolute;
@@ -72,7 +72,7 @@
 
 .second h4::after {
     content: '';
-    background: #66c83d;
+    background: #FF512F;
     width: 20%;
     height: 2px;
     position: absolute;
@@ -128,7 +128,7 @@
 
 .third h4::after {
     content: '';
-    background: #66c83d;
+    background: #FF512F;
     width: 20%;
     height: 2px;
     position: absolute;

@@ -7,4 +7,6 @@ export class Student {
     department:string='';
     city:string='';
     id:string='';
+    phone_number:string='';
+    address:string='';
 }

@@ -10,6 +10,7 @@ import { StudentsComponent } from './students/students.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
+import { DetailStudentComponent } from './detail-student/detail-student.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './home/home.component';
     FooterComponent,
     AddStudentComponent,
     StudentsComponent,
-    HomeComponent
+    HomeComponent,
+    DetailStudentComponent
   ],
   imports: [
     BrowserModule,
